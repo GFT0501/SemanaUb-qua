@@ -1,0 +1,236 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: fit-content;
+    background-image: url("background-menu.png");
+    background-repeat: no-repeat;
+
+}
+
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 12.5%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    backdrop-filter: blur(40px);
+}
+
+.navbar a {
+    position: relative;
+    font-size: 16px;
+    color: #e4e4e4;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+.navbar a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 2px;
+    background: #e4e4e4;
+    border-radius: 5px;
+    transform: translateY(10px);
+    opacity: 0;
+    transition: .5s;
+}
+
+.navbar a:hover::after {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.cds {
+    background-color: #BEB19E;
+    padding: 10px;
+    margin-left: 800px;
+    border-radius: 10px;
+    color: black;
+}
+
+.imagein {
+    height: 700px;
+    text-align: center;
+
+}
+
+.info-main {
+    color: white;
+    font-size: 26px;
+    margin-top: 130px;
+    margin-bottom: 200px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    border: 1px solid antiquewhite;
+}
+
+.loc {
+    background-color: #8DA573;
+    width: 160px;
+    height: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid antiquewhite;
+}
+
+.busc {
+    background-color: grey;
+    padding: 10px;
+    width: 160px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 13   0px;
+    border: 1px solid antiquewhite;
+}
+
+.hotels {
+    background-color: antiquewhite;
+    height: 820px;
+    border-bottom: 1px solid black;
+}
+
+.hotels div h1 {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.hotels div h1::after {
+    content: " ";
+    border: 1px solid black;
+    width: 320px;
+}
+
+
+.hotel-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.t-hotel-options {
+    background-color: white;
+    width: fit-content;
+}
+.hotel-info {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.outro-hotel {
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+
+.text {
+    width: fit-content;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 22px;
+    text-align: center;
+    margin-right: 50px;
+
+}
+
+.cntt {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #8DA573;
+
+}
+
+.cntt:hover {
+    outline: 1px solid white;
+    color: white;
+}
+
+
+.map {
+    background-color: antiquewhite;
+    height: 400px;
+
+}
+
+
+.map div h1 {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.map div h1::after {
+    content: " ";
+    border: 1px solid black;
+    width: 90px;
+}
+
+footer {
+    background-color: #343a40; /* Cor de fundo escura */
+}
+
+footer h5 {
+    color: #f8f9fa; /* Cor dos títulos */
+    margin-bottom: 1rem;
+}
+
+footer p {
+    color: #adb5bd; /* Cor dos parágrafos */
+}
+
+footer a {
+    color: #f8f9fa; /* Cor dos links */
+    transition: color 0.3s; /* Efeito de transição para os links */
+}
+
+footer a:hover {
+    color: #ffc107; /* Cor do link ao passar o mouse */
+}
+
+footer .text-center {
+    border-top: 1px solid #495057; /* Linha separadora */
+    padding-top: 1rem; /* Espaço acima do texto */
+}
