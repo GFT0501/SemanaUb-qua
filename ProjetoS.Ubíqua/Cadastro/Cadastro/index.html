@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParáReservas</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+           <a href="#">Menu</a>
+           <a href="#">Sobre</a>
+           <a href="#">Serviços</a>
+           <a href="#">Contatos</a>
+        </nav>
+
+       
+    </header>
+    <div class="background"></div>
+    <div class="container">
+        <div class="content">
+            <h2 class="logo"><i class='bx bxl-firebase'></i>ParáReservas</h2>
+
+            <div class="text-sci">
+                <h2>Bem Vindo!<br><span>Explore nossas diversas opções de hospedagem!</span></h2>
+
+                <p>Reserve de forma rápida e segura</p>
+
+                <div class="icons">
+                    <a href="#" onclick="alertLinkedIn()"><i class='bx bxl-linkedin-square' ></i></a>
+                    <a href="#" onclick="alertFacebook()"><i class='bx bxl-facebook-circle' ></i></a>
+                    <a href="#" onclick="alertInstagram()"><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href="#" onclick="alertTwitter()"><i class='bx bxl-twitter' ></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="logreg-box">
+            <div class="box-form login">
+                <form action="#">
+                    <h2>Entrar</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope' ></i></span>
+                        <input type="text" required>
+                        <label>Email</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock'></i></span>
+                        <input type="password" required>
+                        <label>Senha</label>
+                    </div>
+
+                    <div class="remember">
+                        <label><input type="checkbox">Lembre-me</label>
+                        <a href="#">Esqueceu sua senha?</a>
+                    </div>
+
+                    <button type="submit" class="btn"><a href="menu.html" class="btn-a" >Entrar</a></button>
+
+                    <div class="cadastro">
+                        <p>Não tem uma conta? <a href="#" class="register-link">Cadatre-se</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="box-form cadastro">
+                <form action="#">
+                    <h2>Cadastro</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-user' ></i></span>
+                        <input type="text" required>
+                        <label>Usuario</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope' ></i></span>
+                        <input type="text" required>
+                        <label>Email</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock'></i></span>
+                        <input type="password" required>
+                        <label>Senha</label>
+                    </div>
+
+                    <div class="remember">
+                        <label><input type="checkbox">lembrar</label>
+                    </div>
+
+                    <button type="submit" class="btn">Cadastrar</button>
+
+                    <div class="cadastro">
+                        <p>criou a conta? <a href="#" class="login-link">Entrar</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>
